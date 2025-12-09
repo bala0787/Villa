@@ -1,28 +1,12 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/mind-ar/dist/mindar-image.prod.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aframe@1.4.0/dist/aframe.min.js"></script>
-  </head>
-  <body>
-    <mindar-image
-      id="mindar"
-      imageTargetSrc="./targets.mind"
-      autoStart="true">
-      
-      <a-scene mindar-image embedded>
-        <a-assets>
-          <a-asset-item id="model" src="./models/Villa.glb"></a-asset-item>
-        </a-assets>
-
-        <a-entity
-          mindar-image-target="targetIndex: 0"
-          gltf-model="#model"
-          position="0 0 0"
-          rotation="0 0 0"
-          scale="0.5 0.5 0.5">
-        </a-entity>
-
-      </a-scene>
-    </mindar-image>
-  </body>
+<head>
+    <title>Hello World Page</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is my first web page.</p>
+</body>
 </html>
+
+
